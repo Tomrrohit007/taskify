@@ -1,9 +1,7 @@
-
 const LayoutClerk = ({ children }: { children: React.ReactNode }) => {
-
   return (
-    <div className="h-full flex items-center justify-center">{children}</div>
-  )
-}
+    <div className='flex items-center justify-center h-full'>{children}</div>
+  );
+};
 
-export default LayoutClerk
+export default LayoutClerk;

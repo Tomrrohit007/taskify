@@ -1,14 +1,13 @@
-import { OrganizationList } from "@clerk/nextjs"
-
+import { OrganizationList } from "@clerk/nextjs";
 
 const CreateOrganizationPage = () => {
   return (
     <OrganizationList
       hidePersonal
-      afterCreateOrganizationUrl="/organization/:id"
-      afterSelectOrganizationUrl="/organization/:id"
+      afterCreateOrganizationUrl='/organization/:id'
+      afterSelectOrganizationUrl='/organization/:id'
     />
-  )
-}
+  );
+};
 
-export default CreateOrganizationPage
+export default CreateOrganizationPage;

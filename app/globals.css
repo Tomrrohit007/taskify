@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 
-:root, body, html {
-  height:100%;
+:root, html, body {
+  height: 100%;
 }
 
 @layer base {
